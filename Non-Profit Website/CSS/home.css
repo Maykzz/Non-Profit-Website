@@ -1,0 +1,561 @@
+.navbar {
+  background-color: #00b894;
+  padding: 10px 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: color 0.3s ease-in-out;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+  color: #ffffff;
+}
+
+.navbar-toggler {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #ffffff;
+  padding: 10px 20px;
+  transition: color 0.3s;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #333 !important;
+}
+
+.dropdown-item {
+  transition: background-color 0.3s;
+  background-color: transparent;
+}
+
+.dropdown-menu {
+  background-color: #00b894 !important;
+  border: none;
+}
+
+.dropdown-menu .dropdown-item {
+  color: white;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: #333 !important;
+  background-color: transparent;
+}
+
+.dropdown-menu .dropdown-item:active {
+  color: #000000 !important;
+}
+
+.content {
+  padding-top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-brand {
+    margin: 0 auto;
+    font-size: 16px;
+  }
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(Backgrounds/home-background.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  font-family: "Yeseva One", cursive;
+  color: #fff;
+}
+
+.hero-content p {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-bottom: 30px;
+}
+
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  border: 2px solid #5c5c5c;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  margin: 30px;
+}
+
+.cta-button:hover {
+  background-color: #00b894;
+  border-color: #00b894;
+  color: #fff;
+}
+
+.help-animals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.help-animals h3 {
+  font-family: "Yeseva One", cursive;
+  position: relative;
+  display: inline-block;
+  font-size: 36px;
+  line-height: 1.3;
+  font-weight: 400;
+  color: #191d34;
+}
+
+.help-animals h3:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 4px;
+  width: 100%;
+  background-color: #20c997;
+}
+
+.reason-card {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.reason-card:hover {
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.reason-card img {
+  max-width: 150px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.reason-card h4 {
+  margin-top: 15px;
+  font-family: "Yeseva One", cursive;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.reason-card p {
+  color: #5c5c5c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.mission-section {
+  background-color: #f5f5f5;
+}
+
+.mission-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-title h3 {
+  font-family: "Yeseva One", cursive;
+  position: relative;
+  display: inline-block;
+  font-size: 36px;
+  line-height: 1.3;
+  font-weight: 400;
+}
+
+.mission-title h3:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 4px;
+  width: 100%;
+  background-color: #20c997;
+}
+
+.centered-section {
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.centered-section > h2 {
+  font-family: "Yeseva One", cursive;
+}
+
+.stats {
+  padding-top: 100px;
+}
+
+.rectangle-card {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.rectangle-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.rectangle-icon {
+  font-size: 2.5em;
+  color: #23b323;
+  margin-right: 10px;
+}
+
+.rectangle-text {
+  font-size: 2em;
+  color: #333;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.rectangle-text > h6 {
+  font-family: "Yeseva One", cursive;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.rectangle-text > p {
+  font-weight: bold;
+  color: #1a4f0d;
+}
+
+.testimonial-section {
+  background-color: #f9f9f9;
+  padding: 40px;
+  text-align: center;
+}
+
+.testimonial-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-title h3 {
+  font-family: "Yeseva One", cursive;
+  position: relative;
+  display: inline-block;
+  font-size: 36px;
+  line-height: 1.3;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.testimonial-title h3:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 4px;
+  width: 100%;
+  background-color: #20c997;
+}
+
+.testimonial-text {
+  font-family: "Merriweather", serif;
+  font-size: 1.2em;
+  line-height: 1.5;
+  color: #555;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-left: 5px solid #6c757d;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-author {
+  font-family: "Merriweather", serif;
+  font-size: 1em;
+  color: #888;
+}
+
+.gallery-section img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.gallery-section .col-md-4 img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery-section .col-md-4 img:hover {
+  transform: scale(1.1);
+}
+
+.volunteer-container {
+  background-color: #f5f5f5;
+}
+
+.volunteer-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.volunteer-title h3 {
+  font-family: "Yeseva One", cursive;
+  position: relative;
+  display: inline-block;
+  font-size: 36px;
+  line-height: 1.3;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.volunteer-title h3:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 4px;
+  width: 100%;
+  background-color: #20c997;
+}
+
+.card-body > h4 {
+  margin-top: 15px;
+  font-family: "Yeseva One", cursive;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.card-body > p {
+  color: #5c5c5c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+.volunteer-card {
+  height: 450px;
+  transition: all 0.3s ease;
+}
+
+.volunteer-card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.volunteer-card:hover {
+  transform: translateY(-8px);
+}
+
+.newsletter {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.newsletter-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.newsletter-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter-title h3 {
+  font-family: "Yeseva One", cursive;
+  position: relative;
+  display: inline-block;
+  font-size: 34px;
+  line-height: 1.3;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.newsletter-title h3:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 4px;
+  width: 100%;
+  background-color: #20c997;
+}
+
+.newsletter-description {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 30px;
+  padding: 0 30px;
+}
+
+.newsletter-signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 500px;
+}
+
+.newsletter-button {
+  padding: 10px 20px;
+  border: 2px solid #c5c5c5;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  font-family: "Roboto" sans-serif;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+}
+
+.newsletter-button:hover {
+  background-color: #00b894;
+  color: #ffffff;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+  text-align: left;
+}
+
+footer h6 {
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-family: "Yeseva One", cursive;
+}
+
+footer p {
+  font-size: 1em;
+  line-height: 1.5;
+  color: #ccc;
+  font-family: "Roboto", sans-serif;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s, -webkit-text-decoration 0.3s;
+  transition: color 0.3s, text-decoration 0.3s;
+  transition: color 0.3s, text-decoration 0.3s, -webkit-text-decoration 0.3s;
+  font-family: "Roboto", sans-serif;
+}
+
+footer a:hover {
+  color: #00b894;
+  text-decoration: underline;
+}
+
+footer i:hover {
+  color: #00b894;
+}
+
+footer .links li:hover {
+  background-color: #555;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+footer i {
+  font-size: 1.2em;
+  margin-right: 10px;
+  transition: color 0.3s;
+  font-family: "Roboto", sans-serif;
+}
+
+footer .row {
+  justify-content: space-between;
+}
+
+footer .col-md-3,
+footer .col-md-2 {
+  margin-bottom: 20px;
+}
+
+footer .text-center {
+  text-align: center;
+}
+
+.links {
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  footer {
+    text-align: center;
+  }
+
+  footer .col-md-3,
+  footer .col-md-2 {
+    text-align: center;
+  }
+}
